@@ -1,6 +1,7 @@
 /* Defaults */
 body{
-    margin: 0 8px;
+    margin: 0 0;
+    overflow-x: hidden;
 }
 
 /* Frequently used Things */
@@ -12,17 +13,21 @@ font-family: 'Montserrat', sans-serif; */
 
 
 /* Site Title */
+header{
+    margin: 0 40px;
+}
+
 h4 {
     font-family: 'Lobster';
-    font-size: large;
+    font-size: 1.5rem;
     color: #2c3e50;
     display: inline-block;
-    transition: all 3s;
+    transition: letter-spacing 3s;
     margin: 20px;
     padding: 4px;
 }
 h4:hover {
-    color: #16a085;
+    color: #66BFBF;
     letter-spacing: 2px;
 }
 
@@ -34,6 +39,7 @@ nav{
     display: inline-block;
     margin: right;
     float: right;
+    font-size: 1.25rem;
 }
 
 nav [href]{
@@ -42,7 +48,7 @@ nav [href]{
     text-decoration: none;
     float: right;
     border-top: 4px solid white;
-    transition: all 1s;
+    transition: all 0.4s;
 }
 
 nav [href]:hover{
@@ -52,9 +58,72 @@ nav [href]:hover{
     border-top: 4px solid #16a085;
 }
 
+body section{
+    background-color: #E4F9F5;
+    height: 500px;
+    width: 100%;
+    margin: 0 0;
+}
+
+/* Title Section */
+#home{
+    margin: 0 0;
+    padding: 100px 70px;
+}
+
+.intro{
+
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 4rem;
+    color: #66BFBF;
+}
+
+.summ{
+    font-family: 'Montserrat';
+    color: #334756;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.introPara{
+    font-family: 'Montserrat';
+    line-height: 1.5;
+}
+
+.home-text{
+    display: inline;
+    width: 40%;
+    float: left;
+    text-align: justify;
+}
+
+.my-img{
+    width: 30rem;
+    float: right;
+    padding-right: 10rem;
+}
+
+.my-icons {
+    color: #334756;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Main Body */
 
-.readMore{
+/* .readMore{
     text-decoration: none;
     color: #27ae60;
     display: inline-block;
@@ -72,4 +141,4 @@ article h3{
     text-transform: uppercase;
     font-size: 2rem;
     color: #16a085;
-}
+} */
