@@ -1,7 +1,11 @@
 /* Defaults */
 body{
     margin: 0 0;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
+}
+
+*{
+    scroll-behavior: smooth !important;
 }
 
 /* Frequently used Things */
@@ -25,6 +29,7 @@ h4 {
     transition: letter-spacing 3s;
     margin: 20px;
     padding: 4px;
+    padding-left: 20px;
 }
 h4:hover {
     color: #66BFBF;
@@ -35,11 +40,10 @@ h4:hover {
 
 nav{
     font-family: 'Lobster';
-    font-size: medium;
     display: inline-block;
-    margin: right;
     float: right;
     font-size: 1.25rem;
+    padding-right: 20px;
 }
 
 nav [href]{
@@ -49,6 +53,7 @@ nav [href]{
     float: right;
     border-top: 4px solid white;
     transition: all 0.4s;
+    scroll-behavior: smooth;
 }
 
 nav [href]:hover{
@@ -58,21 +63,21 @@ nav [href]:hover{
     border-top: 4px solid #16a085;
 }
 
-body section{
+/* body section{
     background-color: #E4F9F5;
     height: 500px;
-    width: 100%;
     margin: 0 0;
-}
+} */
 
 /* Title Section */
 #home{
     margin: 0 0;
-    padding: 100px 70px;
+    padding: 100px 120px;
+    background-color: #E4F9F5;
+    height: 500px;
 }
 
 .intro{
-
     font-family: 'Montserrat';
     font-weight: 900;
     font-size: 4rem;
@@ -89,31 +94,99 @@ body section{
 .introPara{
     font-family: 'Montserrat';
     line-height: 1.5;
+    text-align: justify;
 }
 
 .home-text{
     display: inline;
     width: 40%;
     float: left;
-    text-align: justify;
 }
 
 .my-img{
-    width: 30rem;
-    float: right;
-    padding-right: 10rem;
+    size: 30rem;
+    /* width: 30rem; */
+    width: 25%;
+    padding-left: 30rem;
+    padding-top: 3rem;
 }
 
-.my-icons {
+#new-goals{
+    margin: 100px 300px;
+    background-color: white;
+}
+
+section h2{
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 4rem;
+    color: #66BFBF;
+}
+
+article img{
+    width: 20%;
+    padding: 50px;
+    float: left;
+}
+
+.goal-text{
+    padding: 50px;
+    padding-bottom: 80px;
+    text-align: justify;
+    font-family: 'Montserrat';
+    line-height: 1.5;
+    font-size: 1.1rem;
+    font-weight: 450;
+}
+
+div h3{
+    margin-top: 0;
+}
+
+.explore{
+    text-decoration: none;
+    color: #66BFBF;
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid #66BFBF;
+    transition: background-color .3s;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.explore:hover{
+    background-color: #66BFBF;
+    color: white;
+}
+
+
+/* Projects */
+#projects{
+    text-align: center;
+    background-color: #E4F9F5;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.project-link{
+    text-decoration: none;
     color: #334756;
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid #334756;
+    transition: background-color .3s;
+    font-weight: 700;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 1.2rem;
+    font-family: 'Montserrat';
 }
 
-
-
-
-
-
-
+.project-link:hover{
+    background-color: #334756;
+    color: white;
+}
 
 
 
@@ -141,4 +214,11 @@ article h3{
     text-transform: uppercase;
     font-size: 2rem;
     color: #16a085;
+} */
+
+
+/* 
+.goal-img{
+    float: left;
+    width: 15%;
 } */
