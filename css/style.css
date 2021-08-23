@@ -106,13 +106,14 @@ nav [href]:hover{
 .my-img{
     size: 30rem;
     /* width: 30rem; */
-    width: 25%;
-    padding-left: 30rem;
+    float: right;
+    width: 250px;
+    padding-left: 10rem;
     padding-top: 3rem;
 }
 
 #new-goals{
-    margin: 100px 300px;
+    margin: 100px 200px;
     background-color: white;
 }
 
@@ -131,6 +132,7 @@ article img{
 }
 
 .goal-text{
+    color: #334756;
     padding: 50px;
     padding-bottom: 80px;
     text-align: justify;
@@ -167,6 +169,7 @@ div h3{
     background-color: #E4F9F5;
     padding-top: 20px;
     padding-bottom: 20px;
+    font-family: 'Montserrat';
 }
 
 .project-link{
@@ -180,7 +183,6 @@ div h3{
     border-radius: 5px;
     margin: 5px;
     font-size: 1.2rem;
-    font-family: 'Montserrat';
 }
 
 .project-link:hover{
@@ -188,10 +190,109 @@ div h3{
     color: white;
 }
 
+#dev-title{
+    color: #334756;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.dev-list{
+    padding-bottom: 50px;
+}
 
 
+/* Education */
+#education{
+    font-family: 'Montserrat';
+    line-height: 1.5;
+}
 
+#education h4{
+    font-family: 'Montserrat';
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: left;
+    padding-left: 0;
+    margin-left: 0;
+    color: #334756;
+}
 
+.edu{
+    text-align: left;
+    padding-bottom: 2%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+  
+/* .h2-edu{
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: left;
+} */
+  
+.edu-body{
+    font-family: 'Montserrat', sans-serif;
+}
+  
+.bsc-thesis{
+    text-align: center;
+}
+
+b{
+    color: #334756;
+}
+
+#education h3{
+    color: #334756;
+}
+
+#education a{
+    text-decoration: none;
+    color: #334756;
+}
+
+/* Work Experiences */
+#work-experience h2{
+    padding-top: 50px;
+}
+
+#work-experience{
+    font-family: 'Montserrat';
+    line-height: 1.5;
+    background-color: #E4F9F5;
+    padding-bottom: 2%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+#work-experience h4{
+    font-family: 'Montserrat';
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: left;
+    padding-left: 0;
+    margin-left: 0;
+    color: #334756;
+} 
+
+#work-experience h5{
+    font-size: 25px;
+    text-align: left;
+    color: #334756;
+    margin: 0 0;
+    font-weight: 500;
+}
+
+#work-experience h6{
+    font-size: 1.2rem;
+    color: #334756;
+    margin: 15px 0;
+    font-weight: 400;
+}
+
+#work-experience ul{
+    line-height: 2;
+}
 
 
 /* Main Body */
